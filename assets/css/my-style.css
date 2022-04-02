@@ -1,4 +1,5 @@
 * {
+    color: #ffffff;
     margin: 0;
     border: 0;
     padding: 0;
@@ -7,4 +8,13 @@
 
 .logoViajes {
     max-width: 25px;
+}
+
+i {
+    background-color: #4cc9f0;
+    padding: 10px 168px 10px;
+}
+
+.card-body {
+    background-color: #4cc9f0;
 }
