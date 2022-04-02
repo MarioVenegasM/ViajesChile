@@ -10,11 +10,12 @@
     max-width: 25px;
 }
 
-i {
+#quienesSomos i {
     background-color: #4cc9f0;
     padding: 10px 168px 10px;
 }
 
-.card-body {
+.card-body,
+footer {
     background-color: #4cc9f0;
 }

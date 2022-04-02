@@ -5,9 +5,8 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!--mis estilos CSS-->
-    <link rel="stylesheet" href="/assets/css/my-style.css">
-    <!-- Bootstrap CSS -->
+
+    <!-- Bootstrap CSS  v5.1.3-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <!--CDN font-awesome-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
@@ -16,6 +15,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <!--mis estilos CSS-->
+    <link rel="stylesheet" href="/assets/css/my-style.css">
 
     <title>Viajes Chile Mario Venegas</title>
 </head>
@@ -27,26 +29,26 @@
             <a class="navbar-brand" href="#viajesChile">Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
+            </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#quienesSomos">Quienes Somos</a>
+                        <a class="nav-link active" href="#quienesSomos">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#destacados">Destacados</a>
+                        <a class="nav-link active" href="#destacados">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contacto">Contacto</a>
+                        <a class="nav-link active" href="#contacto">Contacto</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
-    <header>
+    <header id="inicio">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -60,18 +62,18 @@
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </header>
 
 
-    <section class="bg-dark">
+    <section class="bg-dark" id="quienesSomos">
         <section class="container">
             <h2 class="text-center pt-5 pb-3">¿QUIÉNES SOMOS?</h2>
             <hr class="mx-4 text-center">
@@ -98,8 +100,8 @@
         </section>
     </section>
 
-    <section id="destacados" class="bg-dark">
-        <h2 class="text-center pt-5 pb-3">DESTACADOS</h2>
+    <section id="destacados" class="bg-dark pb-2">
+        <h2 class="text-center pt-5 pb-3" id="destacados">DESTACADOS</h2>
         <hr class="mx-5 text-center">
         <section class="container">
             <div class="card-group mb-4">
@@ -136,6 +138,42 @@
             </div>
         </section>
     </section>
+
+    <section class="bg-dark py-3">
+        <h2 class="text-center pt-5 pb-3" id="contacto">CONTACTO</h2>
+        <hr class="mx-5 text-center">
+        <section class="container">
+            <form>
+                <div class="mb-3">
+                    <label for="nombreCliente" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombreCliente" placeholder="nombre completo">
+                </div>
+                <div class="mb-3">
+                    <label for="asunto" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="asunto" placeholder="Ingrese asunto">
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-info text-light" id="botonEnviar">Enviar</button>
+            </form>
+        </section>
+    </section>
+
+    <footer>
+        <section class="container">
+            <div class="row p-4">
+                <h4 class="col w-50 text-center">VIAJES CHILE</h4>
+                <div class="col w-50 text-center">
+                    <a href="https://github.com/" target="_blank"><i class="fab fa-github-square fs-2 m-2"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fs-2 m-2"></i></a>
+                    <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fs-2 m-2"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-square fs-2 m-2"></i></a>
+                </div>
+            </div>
+        </section>
+    </footer>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
