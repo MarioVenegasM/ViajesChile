@@ -25,7 +25,7 @@
 <body>
     <nav class="navbar fixed-top  navbar-expand-lg navbar-dark opacity-100">
         <div class="container">
-            <img class="logoViajes" src="/assets/img/viajes.svg" alt="">
+            <img class="logoViajes" src="/assets/img/viajes.svg" alt="logoViajes">
             <a class="navbar-brand" data-bs-toggle="tooltip" data-bs-placement="top" title="Visita nuestras redes sociales!!! Haz click acá para ir al final de la pagina" href="#redesSociales">Viajes Chile</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -77,22 +77,22 @@
         <section class="container">
             <h2 class="text-center pt-5 pb-3">¿QUIÉNES SOMOS?</h2>
             <hr class="mx-4 text-center">
-            <div class="row">
-                <div class="col-12 col-sm-4">
-                    <i class="fa-solid fa-plane"></i>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione a, odit ea veritatis necessitatibus quo, sunt, aperiam iure autem molestiae repellendus velit dolor amet nisi voluptatem consequatur neque inventore enim! Lorem ipsum
+            <div class="row d-flex">
+                <div class="col col-sm-4 col-md-4">
+                    <i class="fa-solid fa-plane py-1 text-center img-fluid"></i>
+                    <p class="cambiaColor">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione a, odit ea veritatis necessitatibus quo, sunt, aperiam iure autem molestiae repellendus velit dolor amet nisi voluptatem consequatur neque inventore enim! Lorem ipsum
                         dolor sit amet, consectetur adipisicing elit. Ad asperiores illo ipsum maxime libero eum maiores molestiae numquam? Sunt consectetur enim ut in vel exercitationem odit repudiandae reiciendis! Magnam, laboriosam! Lorem ipsum dolor
                         sit amet consectetur adipisicing elit. Corporis reprehenderit dolor assumenda, delectus quod, officiis nisi nihil possimus exercitationem corrupti vero minus magnam facilis! Beatae itaque ipsum soluta odit esse? </p>
                 </div>
-                <div class="col-12 col-sm-4">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque a modi vero enim sunt eum soluta omnis explicabo rerum perspiciatis excepturi accusantium accusamus aspernatur tenetur doloribus id, vitae pariatur eos. Amet quia doloribus
+                <div class="col col-sm-4 col-md-4">
+                    <p class="cambiaColor">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque a modi vero enim sunt eum soluta omnis explicabo rerum perspiciatis excepturi accusantium accusamus aspernatur tenetur doloribus id, vitae pariatur eos. Amet quia doloribus
                         natus perspiciatis molestias velit! Ducimus laborum non modi et. Cumque recusandae laborum cum laudantium quas id commodi culpa praesentium ipsam at. Ipsam architecto magni doloremque reprehenderit voluptatum. Magni iste nesciunt,
                         qui odio vel, necessitatibus quisquam rerum ea est quam natus sed cupiditate eveniet ipsa corrupti nisi aliquam, asperiores optio repellendus iure magnam libero quae voluptatibus. Assumenda, totam!</p>
-                    <i class="fa-solid fa-mountain"></i>
+                    <i class="fa-solid fa-mountain py-1 text-center img-fluid"></i>
                 </div>
-                <div class="col-12 col-sm-4">
-                    <i class="fa-solid fa-route"></i>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, maxime nesciunt! Quas corrupti doloribus eligendi, ex qui cumque doloremque debitis? Minima officiis a aliquid cumque rerum error vitae eius nobis. Nemo veniam, mollitia
+                <div class="col col-sm-4 col-md-4">
+                    <i class="fa-solid fa-route py-1 text-center img-fluid"></i>
+                    <p class="cambiaColor">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, maxime nesciunt! Quas corrupti doloribus eligendi, ex qui cumque doloremque debitis? Minima officiis a aliquid cumque rerum error vitae eius nobis. Nemo veniam, mollitia
                         ipsum cupiditate aperiam architecto? Assumenda nam asperiores dolores eaque adipisci quia sapiente animi saepe sint natus esse, quam earum deleniti iusto, unde quis aut suscipit mollitia error! Necessitatibus, animi itaque eum
                         ex dolorum dignissimos voluptas expedita sequi ducimus quibusdam cum aspernatur et? Rerum voluptatibus cumque sit earum laborum doloremque! Officiis in perspiciatis sunt! Ea nobis tenetur quasi?</p>
                 </div>
@@ -100,44 +100,53 @@
         </section>
     </section>
 
-    <section id="destacados" class="bg-dark pb-2">
-        <h2 class="text-center pt-5 pb-3">DESTACADOS</h2>
+
+    <section id="destacados" class="bg-dark pb-3">
+        <h2 class="text-center pt-5 pb-4">DESTACADOS</h2>
         <hr class="mx-5 text-center">
-        <section class="container">
-            <div class="card-group mb-4">
-                <div class="card m-2 border border-light">
-                    <img src="/assets/img/card1.jpg" class="card-img-top desaparecer" alt="card1">
-                    <div class="card-body aparece-desaparece">
-                        <h5 class="card-title desaparecer fw-light">Lorem, ipsum dolor sit amet</h5>
-                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus iste nisi consequuntur in ex esse voluptate.</p>
+        <section class="container ">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div class="col card-group">
+                    <div class="card border-light">
+                        <img src="/assets/img/card1.jpg" class="card-img-top desaparecer" alt="card1">
+                        <div class="card-body aparece-desaparece">
+                            <h5 class="card-title">Lorem, ipsum dolor sit amet</h5>
+                            <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus iste nisi consequuntur in ex esse voluptate repudiandae nesciunt.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card m-2 border border-light">
-                    <img src="/assets/img/card2.jpg" class="card-img-top desaparecer" alt="card2">
-                    <div class="card-body aparece-desaparece">
-                        <h5 class="card-title desaparecer fw-light">Lorem ipsum dolor sit amet</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque repellat praesentium. Iusto cupiditate.</p>
+                <div class="col">
+                    <div class="card border-light">
+                        <img src="/assets/img/card2.jpg" class="card-img-top desaparecer" alt="card2">
+                        <div class="card-body aparece-desaparece">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod itaque repellat praesentium. Iusto cupiditate voluptatem travectum quasi.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card m-2 border border-light">
-                    <img src="/assets/img/card3.jpg" class="card-img-top desaparecer" alt="card3">
-                    <div class="card-body aparece-desaparece">
-                        <h5 class="card-title fw-light">Lorem ipsum dolor sit amet</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum magni iure cumque ut quasi pariatur illo.</p>
+                <div class="col">
+                    <div class="card border-light">
+                        <img src="/assets/img/card3.jpg" class="card-img-top desaparecer" alt="card3">
+                        <div class="card-body aparece-desaparece">
+                            <h5 class="card-title">Lorem ipsum dolor, sit amet</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum magni iure cumque ut quasi pariatur illo non pariatur edrasta cuoti porta.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="card m-2 border border-light">
-                    <img src="/assets/img/card4.jpg" class="card-img-top desaparecer" alt="card4">
-                    <div class="card-body aparece-desaparece">
-                        <h5 class="card-title desaparecer fw-light">Lorem ipsum dolor, sit ame</h5>
-                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur accusamus veritatis repudiandae hic molestias quo.</p>
+                <div class="col">
+                    <div class="card border-light">
+                        <img src="/assets/img/card4.jpg" class="card-img-top desaparecer" alt="card4">
+                        <div class="card-body aparece-desaparece">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet</h5>
+                            <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur accusamus veritatis repudiandae hic molestias quo necessitatibus.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
     </section>
 
-    <section class="bg-dark py-3">
+    <section class="bg-dark pt-4 pb-5">
         <h2 class="text-center pt-5 pb-3" id="contacto">CONTACTO</h2>
         <hr class="mx-5 text-center">
         <section class="container">
@@ -162,8 +171,8 @@
     <footer>
         <section class="container" id="redesSociales">
             <div class="row p-3">
-                <h4 class="col text-center">VIAJES CHILE</h4>
-                <div class="col text-center">
+                <h4 class="col-12 col-sm-6 text-center">VIAJES CHILE</h4>
+                <div class="col-12 col-sm-6 text-center">
                     <a href="https://github.com/" target="_blank"><i class="fab fa-github-square fs-2 m-2"></i></a>
                     <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fs-2 m-2"></i></a>
                     <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter-square fs-2 m-2"></i></a>

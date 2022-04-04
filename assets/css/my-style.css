@@ -12,7 +12,15 @@
 
 #quienesSomos i {
     background-color: #4cc9f0;
-    padding: 10px 168px 10px;
+    width: 355px;
+}
+
+#destacados {
+    background-color: black;
+}
+
+.card-body p {
+    font-size: 14px;
 }
 
 .card-body,
