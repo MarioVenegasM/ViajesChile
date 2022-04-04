@@ -12,15 +12,15 @@ $(function() {
     $('.desaparecer').click(function() {
         $('.aparece-desaparece').toggle();
     });
-    // texto de seccion ¡Quienes somos? cambia de color
+    // texto de seccion ¿Quienes somos? cambia de color
     $('.cambiaColor').on('dblclick', function() {
         $(this).css({
             "color": "#adff02"
         })
     });
 
-
-    $(".classIni").on('click', function(event) {
+    // La otra forma de hacer smooth scroll sin ocupar los botones del Navbar de Bootstrap
+    /*$(".classIni").on('click', function(event) {
         if (this.hash !== "") {
             event.preventDefault();
             var hash = this.hash;
@@ -66,6 +66,6 @@ $(function() {
                 window.location.hash = hash;
             });
         }
-    });
+    });*/
 
 });

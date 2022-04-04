@@ -1,0 +1,11 @@
+https://github.com/MarioVenegasM/ViajesChile
+
+Aplicado un Tooltip a el Navbar al nombre de la pagina al lado del logo, tambien direcciona al final
+de la pagina para seccion redes sociales.
+
+Aplicado .on dblclick a texto en seccion ¿Quienes Somos? que le cambia de color
+
+Aplicado toggle a texto de las tarjetas haciendo click sobre las imagenes
+
+Aplicado un Alert! a el boton del formulario enviar con mensaje "El mensaje fue enviado correctamente..."
+
