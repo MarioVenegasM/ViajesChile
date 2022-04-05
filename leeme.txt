@@ -9,3 +9,4 @@ Aplicado toggle a texto de las tarjetas haciendo click sobre las imagenes
 
 Aplicado un Alert! a el boton del formulario enviar con mensaje "El mensaje fue enviado correctamente..."
 
+GitHub Pages https://mariovenegasm.github.io/ViajesChile/
